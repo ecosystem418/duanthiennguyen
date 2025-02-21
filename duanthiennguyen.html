@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #9c6e50;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(228, 198, 158);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #52281bc9;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that float next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #c2a174;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(229, 191, 156);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Thắp Sáng Nụ Cười</h1>
+  <p>Dự án thiện nguyện cho trẻ em vùng sâu vùng xa</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Trang chủ </a>
+  <a href="#">Cách thức đăng ký</a>
+  <a href="#">Xem thêm</a>
+  <a href="#" style="float:right">link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Đôi nét về dự án</h2>
+      <h5>Dự án "Thắp Sáng Nụ Cười" là một hoạt động thiện nguyện mang ý nghĩa nhân văn sâu sắc, nhằm mang lại niềm vui, động lực và cơ hội phát triển toàn diện cho trẻ em ở các khu vực vùng cao, nơi điều kiện kinh tế còn khó khăn và thiếu thốn.</h5>
+      <img src="https://channel.vcmedia.vn/k:thumb_w/640/prupload/164/2014/08/img20140829131559284/trao-yeu-thuong-cho-tre-em-vung-sau-vung-xa-mua-trung-thu.jpg"alt="hình ảnh dự án" style="width:100%; height:500px;">
+      <p>Những hoạt động của dự án "Thắp Sáng Nụ Cười"</p>
+      <p>Các hoạt động được tổ chức vô cùng đặc sắc như: Đêm diễn ấm áp (ca hát, múa, nhảy,... do trẻ em địa phương và đoàn tình nguyện cùng khách mời thể hiện); giao lưu và gặp gỡ (biểu diễn trang phục, nhảy múa truyền thống,...); Trao quà trao niềm vui.</p>
+    </div>
+    <div class="card">
+      <h2>Đêm văn nghệ - Quyên góp</h2>
+      <h5>Mục đích đêm văn nghệ</h5>
+      <img src="https://mt.gov.vn/Images/editor/images/NGUYEN/Nam%202017/Thang%2010/6-10-3.jpg" alt="hình ảnh đêm văn nghệ" style="width:100%; height:600px;">
+      <p>Đêm văn nghệ gây quỹ từ thiện cho trẻ em vùng sâu vùng xa</p>
+      <p>Nhằm tạo điều kiện tốt nhất để mang con chữ đến cho trẻ em khó khăn vùng sâu vùng xa, đoàn thiện nguyện tổ chức chương trình "Thắp Sáng Nụ Cười" cùng đêm văn nghệ để tạo sân chơi thú vị cho trẻ em, đem hoàn cảnh của trẻ em đến với các mạnh thường quân có tiềm năng. Từ đó, giúp chất lượng cuộc sống của các em được nâng cao, giúp các em được đến trường, được đi học.</p>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Về chúng tôi</h2>
+      <img src="https://eakar.daklak.gov.vn/Upload/Images/h%C3%ACnh%20thi%E1%BA%BFu%20nhi%20EaSar.jpg" alt="đội ngũ đoàn thiện nguyện nguyện cùng các bé" style="width:100%; height:270px;">
+      <p>Đoàn thiện nguyện "Tuổi trẻ" được thành lập vì mục đích giúp đỡ các bạn nhỏ có hoàn cảnh khó khăn, tạo điều kiện thuận lợi cho các em được tiếp xúc với một môi trường tốt hơn. Chúng tôi vẫn còn kêu gọi các mạnh thường quân cùng chung tay "Thắp Sáng Nụ Cười" cho trẻ em vùng sâu, vùng xa và các hoàn cảnh cơ cực.</p>
+    </div>
+    <div class="card">
+      <h3>Một vài hình ảnh của chương trình "Thắp Sáng Nụ Cười" mùa 1, 2, 3</h3>
+      <img src="https://photo.znews.vn/w660/Uploaded/lce_jwqqc/2022_07_13/z3574426798830_f644a526fa3ea6f13b09dc2a2c0ee5bf.jpg" alt="mùa 1" style="width: 100%; height:250px;">
+      <img src="https://channel.mediacdn.vn/428462621602512896/2022/12/28/photo-3-16722031623611945449954.png" alt="mùa 2" style="width: 100%; height:250px;">
+      <img src="https://images2.thanhnien.vn/528068263637045248/2024/9/12/z58226429826634b2d06090c96fa7616a7e94cd068618b-17261398234711554647795.jpg" alt="mùa 2" style="width: 100%; height:250px;">
+    </div>
+    <div class="card">
+      <h3>Liên hệ với chúng tôi</h3>
+      <p>Email: doanthiennguyentuoitre@gmail.com</p>
+      <p>Điện thoại: 0123 34 56 78</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h11>BẢO CHÂU, NGỌC MAI, NGUYỄN LINH, LÊ LINH 12A2</h11>
+</div>
+
+</body>
+</html>
